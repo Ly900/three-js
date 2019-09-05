@@ -9,7 +9,7 @@ let ADD = 0.01;
 // }
 
 let createSphere = () => {
-	let geometry = new THREE.SphereGeometry(.4, 100, 100);
+	let geometry = new THREE.SphereGeometry(.5, 100, 100);
 	
 	let material = new THREE.MeshBasicMaterial({color: 0x945E2B, wireframe: false});
 				 
@@ -18,7 +18,7 @@ let createSphere = () => {
 };
 
 let createRing = () => {
-	let geometry = new THREE.TorusGeometry(.7,.1,2,100,2*Math.PI);
+	let geometry = new THREE.TorusGeometry(.7,.15,2,50);
 	
 	let material = new THREE.MeshBasicMaterial({color: 0xD4D272, wireframe: false});
 	// let material = new THREE.MeshBasicMaterial({color: 'yellow', wireframe: false});
@@ -28,7 +28,8 @@ let createRing = () => {
 };
 
 let createRing2 = () => {
-	let geometry = new THREE.TorusGeometry(.5,.08,2,100,2*Math.PI);
+	// let geometry = new THREE.TorusGeometry(.5,.08,2,100,2*Math.PI);
+	let geometry = new THREE.TorusGeometry(1.1,.15,2, 50);
 	
 	let material = new THREE.MeshBasicMaterial({color: 0xF4D272, wireframe: false});
 	// let material = new THREE.MeshBasicMaterial({color: 'orange', wireframe: false});
@@ -38,7 +39,8 @@ let createRing2 = () => {
 };
 
 let createRing3 = () => {
-	let geometry = new THREE.TorusGeometry(.92,.1,2,100,2*Math.PI);
+	// let geometry = new THREE.TorusGeometry(.92,.1,2,100,2*Math.PI);
+	let geometry = new THREE.TorusGeometry(1.5,.15,2,50);
 	
 	let material = new THREE.MeshBasicMaterial({color: 0xFBB56D, wireframe: false});
 				 
