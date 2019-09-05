@@ -9,7 +9,7 @@ let ADD = 0.01;
 // }
 
 let createSphere = () => {
-	let geometry = new THREE.SphereGeometry(.35, 100, 100);
+	let geometry = new THREE.SphereGeometry(.4, 100, 100);
 	
 	let material = new THREE.MeshBasicMaterial({color: 0x945E2B, wireframe: false});
 				 
@@ -50,10 +50,10 @@ let init = () => {
 
 	// Create the scene.
 	scene = new THREE.Scene();
-	scene.background = new THREE.Color('#ddd');
+	scene.background = new THREE.Color('#000');
 
 	// Create and locate the camera.
-	camera = new THREE.PerspectiveCamera(30,
+	camera = new THREE.PerspectiveCamera(50,
 								window.innerWidth / window.innerHeight, 
 								1, 1000);
 	camera.position.z = 5;
