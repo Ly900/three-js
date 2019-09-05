@@ -9,44 +9,34 @@
 	],
 "creatorBuild": "26268",
 "files": {
-	"\/index.html": {
+	"\/0-saturn\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/0-saturn\/index.html",
 		"oF": 0
 		},
-	"\/script-min.js": {
+	"\/0-saturn\/script.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/script-min-min.js",
+		"oAP": "\/0-saturn\/script-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/script.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/script-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/style.css": {
+	"\/0-saturn\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style-min.css",
+		"oAP": "\/0-saturn\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/style.scss": {
+	"\/0-saturn\/style.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -54,7 +44,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
+		"oAP": "\/0-saturn\/style.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
@@ -62,7 +52,7 @@
 	"\/Three.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/Three-min.js",
 		"oF": 0,
@@ -1884,14 +1874,14 @@
 		"quality": 100
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.js",
 		"autoOutputPathRelativePath": ".\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 1
 		},
