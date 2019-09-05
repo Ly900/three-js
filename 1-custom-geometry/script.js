@@ -1,12 +1,12 @@
 let scene, camera, renderer, cube;
 let ADD = 0.01;
 
-// let createCube = function() {
-// 	let geometry = new THREE.BoxGeometry(.5,.5,.5);
-// 	let material = new THREE.MeshBasicMaterial({color: 'coral'});
-// 	cube = new THREE.Mesh(geometry, material);
-// 	scene.add(cube);
-// }
+let createCube = function() {
+	let geometry = new THREE.BoxGeometry(.5,.5,.5);
+	let material = new THREE.MeshBasicMaterial({color: 'coral'});
+	cube = new THREE.Mesh(geometry, material);
+	scene.add(cube);
+}
 
 let init = () => {
 
@@ -20,7 +20,8 @@ let init = () => {
 								1, 1000);
 	camera.position.z = 5;
 
-
+	// Create cube.
+	createCube();
 
 	// Create the renderer.
 	renderer = new THREE.WebGLRenderer();
