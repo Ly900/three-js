@@ -49,6 +49,46 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/1-custom-geometry\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/1-custom-geometry\/index.html",
+		"oF": 0
+		},
+	"\/1-custom-geometry\/script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/1-custom-geometry\/script-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/1-custom-geometry\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/1-custom-geometry\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/1-custom-geometry\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/1-custom-geometry\/style.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"\/Three.js": {
 		"ft": 64,
 		"ma": 0,
